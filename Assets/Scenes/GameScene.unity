@@ -131,6 +131,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4573837771545190113, guid: 8b19be273e6e2cc44b246702e1573de4,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: f5a8bdcd177eff448a523447cdcd6662,
+        type: 2}
     - target: {fileID: 7836211563697825397, guid: 8b19be273e6e2cc44b246702e1573de4,
         type: 3}
       propertyPath: m_RootOrder
@@ -282,7 +288,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.39365256, y: 3e-45, z: -1e-45, w: 0.9192593}
+  m_LocalRotation: {x: 0.39365256, y: -1e-45, z: 1e-45, w: 0.9192593}
   m_LocalPosition: {x: 0, y: 21.5, z: -20.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -975,7 +981,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903080241}
-  m_LocalRotation: {x: 0.39365256, y: 3e-45, z: -1e-45, w: 0.9192593}
+  m_LocalRotation: {x: 0.39365256, y: -1e-45, z: 1e-45, w: 0.9192593}
   m_LocalPosition: {x: 0, y: 21.5, z: -20.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1011,6 +1017,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4573837771545190113, guid: 8b19be273e6e2cc44b246702e1573de4,
+        type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 5097640670411469006, guid: 956865c40c418084cab081cdffd18681,
+        type: 3}
     - target: {fileID: 7836211563697825397, guid: 8b19be273e6e2cc44b246702e1573de4,
         type: 3}
       propertyPath: m_RootOrder
