@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour, IKitchenObjectParent
@@ -45,6 +46,12 @@ public class Player : MonoBehaviour, IKitchenObjectParent
 
     private void GameInput_OnInteractAlternateAction(object sender, EventArgs e)
     {
+        //If Game is Not Playing
+        if (!KitchenGameManager.Instance.IsGamePlaying())
+        {
+            return;
+        }
+
         if (selectedCounter != null)
         {
             selectedCounter.InteractAlternate(this);
@@ -53,7 +60,13 @@ public class Player : MonoBehaviour, IKitchenObjectParent
 
     private void GameInput_OnInteractAction(object sender, System.EventArgs e)
     {
-        if(selectedCounter!= null)
+        // If Game is Not Playing
+        if (!KitchenGameManager.Instance.IsGamePlaying())
+        {
+            return;
+        }
+
+        if (selectedCounter!= null)
         {
             selectedCounter.Interact(this);
         }        
